@@ -45,6 +45,4 @@ window.onblur = function() {
 }
 
 /* Отключаем зум для мобильных устройств */
-document.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-}, { passive: false });
+
