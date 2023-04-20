@@ -44,6 +44,6 @@ window.onblur = function() {
 	audio.pause()
 }
 
-document.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-}, { passive: false });
+// document.addEventListener('touchmove', function(event) {
+//   event.preventDefault();
+// }, { passive: false });

@@ -21,9 +21,9 @@ body::-webkit-scrollbar {
 }
 
 /* Отключаем зум для мобильных устройств */
-html, body {
+/* html, body {
   touch-action: manipulation;
-}
+} */
 
 @font-face {
 	font-family: raleway_c;
