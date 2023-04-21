@@ -44,8 +44,11 @@ window.onblur = function() {
 	audio.pause()
 }
 
-/* Отключаем зум для мобильных устройств */
 window.addEventListener("load", function () {
   var preloader = document.getElementById("preloader");
   preloader.style.opacity = "0";
+
+  setTimeout(function () {
+    preloader.style.display = "none";
+  }, 1000); // 1000 миллисекунд = 1 секунда
 });
