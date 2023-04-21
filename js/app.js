@@ -45,4 +45,7 @@ window.onblur = function() {
 }
 
 /* Отключаем зум для мобильных устройств */
-
+window.addEventListener("load", function () {
+  var preloader = document.getElementById("preloader");
+  preloader.style.opacity = "0";
+});
